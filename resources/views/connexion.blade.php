@@ -5,11 +5,11 @@
   <title>Connexion</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/fontawesome.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
 </head>
 
 <header>
@@ -17,7 +17,7 @@
 <!--------------------------------- Barre de Navigation --------------------------------------->
 
   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-    <a class="navbar-brand" href="accueil"><img src="img/ubi_logo.png" height="100" width="100"></a>
+    <a class="navbar-brand" href="/projet-laravel/public/"><img src="img/ubi_logo.png" height="100" width="100"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,13 +25,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link text-white" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+          <a class="nav-link text-white" href="/projet-laravel/public/">Accueil<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="dlc.html">DLC<span class="sr-only">(current)</span></a>
+          <a class="nav-link text-white" href="/projet-laravel/public/dlc">DLC<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item connexion">
-          <a class="nav-link text-white" href="connexion.html">Se connecter</a>
+          <a class="nav-link text-white" href="#">Se connecter</a>
         </li>
       </ul>
       <div id="recherche">
@@ -53,7 +53,7 @@
 		<label>Mot de passe</label>
 		<input type="password" name="MdP">
 		<input type="submit" name="connexion" value="Connexion">
-		<p><a href="inscription.html">Pas encore de compte ?</a></p>
+		<p><a href="/projet-laravel/public/reg">Pas encore de compte ?</a></p>
 	</form>
 
 <script type="text/javascript" src="scripts/scripts.js"></script>
@@ -69,5 +69,5 @@
   <img src="img/Ubisoft_logo.svg">
 
 
-<script type="text/javascript" src="scripts/scripts.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 </footer>

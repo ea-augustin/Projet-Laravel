@@ -13,27 +13,19 @@ use App\Http\Controllers\PagesController;
 |
 */
 
-Route::get('/', 'PagesController@index');
-Route::get('/about', 'PagesController@about');
-Route::get('/services', 'PagesController@services');
-Route::get('/i', function(){
+Route::get('/', function(){
     return view('accueil');
 });
 
-  Route::resource('users','UsersController');
-  Route::resource('posts','PostsController');
-  
-  Route::get('users/{user}/destroy', 'UserController@destroyForm');
-    /*
-        Route::get('/', function () {
-            return view('welcome');
-            
-        });
-            
-    
-    
-    Route::get('/users/{id}', function ($id) {
-       return 'This is user '.$id;
-            
-        });
-        */
+Route::get('/dlc', function(){
+    return view('dlc');
+});
+
+Route::get('/co', function(){
+    return view('connexion');
+});
+
+Route::get('/reg', function(){
+    return view('inscription');
+});
+
