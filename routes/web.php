@@ -16,6 +16,9 @@ use App\Http\Controllers\PagesController;
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
+Route::get('/i', function(){
+    return view('accueil');
+});
 
   Route::resource('users','UsersController');
   Route::resource('posts','PostsController');
