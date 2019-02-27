@@ -4,40 +4,24 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        $users = User::all();
-        return view('pages.test')->with('users',$users);
-    }
-
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        DB::table('users')->insert(
+            ['name' => $request->input('name'), 'email' => $request->input('email'), 'password' => $request->input('password')]
+            );
+        
+        return view('pages.connexion');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
 
     /**
      * Display the specified resource.
@@ -45,20 +29,9 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
+    public function read($id)
+    {      
         return User::find($id);    
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
     }
 
     /**
@@ -70,7 +43,13 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $user = User::find($id);
+        
+        if($request->name) $user->name = $request->name;
+        if($request->password) $user->password = $request->password;
+        if($request->email) $user->email = $request->email;
+        
+        $user->save();
     }
 
     /**
@@ -81,6 +60,18 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $user = User::find($id);
+        
+        $user->delete();
+        
+        return view('pages.accueil');
+    }
+    
+    public function connection(){
+        $user = User::where('name','');
+        
+        return $user;
+        
+        
     }
 }

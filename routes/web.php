@@ -26,25 +26,25 @@ Route::get('/co', function(){
 });
 
 Route::get('/reg', function(){
-
     return view('pages.inscription');
+})->name('reg');
+
+
+Route::get('/testLogin',function(){
+    return view('auth.login');
 });
 
-Route::get('/test', 'UserController@index');
+Route::get('/testInscr',function(){
+    return view('auth.register');
+});
 
-// HEAD
-Route::post('insc', 'RegisterController@create')->name('inscription');
+Route::post('/create','UserController@create');
+Route::post('/connect','UserController@connection');
+
+Route::post('/read/{n}', 'UserController@read')->where('n','[0-9]+');
+
+Route::get('/des/{n}', 'UserController@destroy')->where('n','[0-9]+');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-//
-
-
-// a28488b343ed951d6276c36d773d4dd87a6fd0d6
-
-
-//Show users
-
-Route::resource('users','UsersController');
-
+Route::resource('users', 'UsersController');
