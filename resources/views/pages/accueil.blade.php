@@ -50,7 +50,7 @@
           <h5 class="card-title">The Division 2</h5>
           <p class="card-text"></p>
           <p class="card-text"><small class="text-muted">69.99€</small></p>
-          <button type="button" class="btn btn-primary buy">Acheter</button>
+          <button type="button" class="btn btn-primary acc">Acheter</button>
         </div>
       </div>
       <div class="card">
@@ -59,7 +59,7 @@
           <h5 class="card-title">Beyond Good and Evil 2</h5>
           <p class="card-text"></p>
           <p class="card-text"><small class="text-muted">69.99€</small></p>
-          <button type="button" class="btn btn-primary buy">Acheter</button>
+          <button type="button" class="btn btn-primary acc">Acheter</button>
         </div>
       </div>
       <div class="card">
@@ -68,7 +68,7 @@
           <h5 class="card-title">Trial Rising </h5>
           <p class="card-text"></p>
           <p class="card-text"><small class="text-muted">69.99€</small></p>
-          <button type="button" class="btn btn-primary buy">Acheter</button>
+          <button type="button" class="btn btn-primary acc">Acheter</button>
         </div>
       </div>
     </div>
@@ -80,7 +80,7 @@
           <h5 class="card-title">The Settlers</h5>
           <p class="card-text"></p>
           <p class="card-text"><small class="text-muted">69.99€</small></p>
-          <button type="button" class="btn btn-primary buy">Acheter</button>
+          <button type="button" class="btn btn-primary acc">Acheter</button>
         </div>
       </div>
       <div class="card">
@@ -89,7 +89,7 @@
           <h5 class="card-title">Assassin's Creed Rebellion</h5>
           <p class="card-text"></p>
           <p class="card-text"><small class="text-muted">4.99€</small></p>
-          <button type="button" class="btn btn-primary buy">Acheter</button>
+          <button type="button" class="btn btn-primary acc">Acheter</button>
         </div>
       </div>
       <div class="card">
@@ -98,7 +98,7 @@
           <h5 class="card-title">Skull and Bones </h5>
           <p class="card-text"></p>
           <p class="card-text"><small class="text-muted">69.99€</small></p>
-          <button type="button" class="btn btn-primary buy">Acheter</button>
+          <button type="button" class="btn btn-primary acc">Acheter</button>
         </div>
       </div>
     </div>  

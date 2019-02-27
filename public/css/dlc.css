@@ -20,8 +20,15 @@
     top: -300px;
     right: -800px;
 }
-.btn {
-    
+.acc {
+    margin-left: 24%;
+}
+
+.dlc{
+	padding: 1.5em;
+  	padding-left: 3em;
+  	padding-right: 3em;
+  	margin-left: 13%;
 }
 @-webkit-keyframes text-focus-in {
   0% {

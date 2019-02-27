@@ -20,7 +20,7 @@
             <h6 class="card-title">ANNO 2205</h6>
             <p class="card-text"></p>
             <p class="card-text"><small class="text-muted">14.99€</small></p>
-            <button type="button" class="btn btn-primary buy">Acheter</button>
+            <button type="button" class="btn btn-primary dlc">Acheter</button>
           </div>
         </div>
         <div class="card">
@@ -29,7 +29,7 @@
             <h6 class="card-title">RAINBOW SIX PASS YEARS 3</h6>
             <p class="card-text"></p>
             <p class="card-text"><small class="text-muted">29.99€</small></p>
-            <button type="button" class="btn btn-primary buy">Acheter</button>
+            <button type="button" class="btn btn-primary dlc">Acheter</button>
           </div>
         </div>
         <div class="card">
@@ -38,7 +38,7 @@
             <h6 class="card-title">ASSASSIN'S CREED BLACK : FLAG SEASON PASS</h6>
             <p class="card-text"></p>
             <p class="card-text"><small class="text-muted">19.99€</small></p>
-            <button type="button" class="btn btn-primary buy">Acheter</button>
+            <button type="button" class="btn btn-primary dlc">Acheter</button>
           </div>
         </div>
         <div class="card">
@@ -47,7 +47,7 @@
             <h6 class="card-title">SOUTH PARK SEASON PASS</h6>
             <p class="card-text"></p>
             <p class="card-text"><small class="text-muted">19.99€</small></p>
-            <button type="button" class="btn btn-primary buy">Acheter</button>
+            <button type="button" class="btn btn-primary dlc">Acheter</button>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@
             <h6 class="card-title">FOR HONOR SEASON PASS YEAR 1</h6>
             <p class="card-text"></p>
             <p class="card-text"><small class="text-muted">19.99€</small></p>
-            <button type="button" class="btn btn-primary buy">Acheter</button>
+            <button type="button" class="btn btn-primary dlc">Acheter</button>
           </div>
         </div>
         <div class="card">
@@ -68,7 +68,7 @@
             <h6 class="card-title">ASSASSIN'S CREED : ORIGIN'S SEASON PASS</h6>
             <p class="card-text"></p>
             <p class="card-text"><small class="text-muted">99.99€</small></p>
-            <button type="button" class="btn btn-primary buy">Acheter</button>
+            <button type="button" class="btn btn-primary dlc">Acheter</button>
           </div>
         </div>
         <div class="card">
@@ -77,7 +77,7 @@
             <h6 class="card-title">ASSINSSIN'S CREED SYNDICATE SEASON PASS</h6>
             <p class="card-text"></p>
             <p class="card-text"><small class="text-muted">24.99€</small></p>
-            <button type="button" class="btn btn-primary buy">Acheter</button>
+            <button type="button" class="btn btn-primary dlc">Acheter</button>
           </div>
         </div>
         <div class="card">
@@ -86,7 +86,7 @@
             <h6 class="card-title">FARCRY 5 SEASON PASS </h6>
             <p class="card-text"></p>
             <p class="card-text"><small class="text-muted">24.99€</small></p>
-            <button type="button" class="btn btn-primary buy">Acheter</button>
+            <button type="button" class="btn btn-primary dlc">Acheter</button>
           </div>
         </div>
       </div>  
