@@ -29,3 +29,8 @@ Route::get('/reg', function(){
     return view('inscription');
 });
 
+Route::post('insc', 'RegisterController@create')->name('inscription');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
