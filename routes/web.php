@@ -14,7 +14,7 @@ use App\Http\Controllers\PagesController;
 */
 
 Route::get('/', function(){
-    return view('accueil');
+    return view('pages.accueil');
 });
 
 Route::get('/dlc', function(){
@@ -28,4 +28,6 @@ Route::get('/co', function(){
 Route::get('/reg', function(){
     return view('inscription');
 });
+
+
 
