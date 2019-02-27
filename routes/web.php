@@ -14,7 +14,7 @@ use App\Http\Controllers\PagesController;
 */
 
 Route::get('/', function(){
-    return view('accueil');
+    return view('pages.accueil');
 });
 
 Route::get('/dlc', function(){
@@ -29,8 +29,13 @@ Route::get('/reg', function(){
     return view('inscription');
 });
 
+// HEAD
 Route::post('insc', 'RegisterController@create')->name('inscription');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//
+
+
+// a28488b343ed951d6276c36d773d4dd87a6fd0d6
