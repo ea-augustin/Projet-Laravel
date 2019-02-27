@@ -26,6 +26,7 @@ Route::get('/co', function(){
 });
 
 Route::get('/reg', function(){
+
     return view('pages.inscription');
 });
 
@@ -39,3 +40,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 // a28488b343ed951d6276c36d773d4dd87a6fd0d6
+
+
+//Show users
+
+Route::resource('users','UsersController');
+

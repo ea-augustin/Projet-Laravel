@@ -6,6 +6,20 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
+use Illuminate\Database\Eloquent\model;
+
+class User extends Model
+{
+    //Table Name
+    protected  $table = 'users';
+    
+    //primary key
+    protected $primaryKey = 'id';
+    //Timestamps
+    public $timestamps = true;
+}
+
+
 class User extends Authenticatable
 {
     use Notifiable;
