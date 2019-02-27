@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:3306
--- Généré le :  Mar 26 Février 2019 à 09:33
+-- Généré le :  Mar 26 Février 2019 à 14:41
 -- Version du serveur :  5.7.25-0ubuntu0.18.04.2
 -- Version de PHP :  7.2.10-0ubuntu0.18.04.1
 
@@ -103,6 +103,30 @@ ALTER TABLE `Product`
 ALTER TABLE `Users`
   ADD PRIMARY KEY (`id`);
 
+--
+-- AUTO_INCREMENT pour les tables exportées
+--
+
+--
+-- AUTO_INCREMENT pour la table `Achat`
+--
+ALTER TABLE `Achat`
+  MODIFY `id` int(55) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT pour la table `Panier`
+--
+ALTER TABLE `Panier`
+  MODIFY `id` int(55) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT pour la table `Product`
+--
+ALTER TABLE `Product`
+  MODIFY `id` int(55) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT pour la table `Users`
+--
+ALTER TABLE `Users`
+  MODIFY `id` int(55) NOT NULL AUTO_INCREMENT;
 --
 -- Contraintes pour les tables exportées
 --
