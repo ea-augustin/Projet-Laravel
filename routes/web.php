@@ -29,6 +29,8 @@ Route::get('/reg', function(){
     return view('pages.inscription');
 });
 
+Route::get('/test', 'UserController@index');
+
 // HEAD
 Route::post('insc', 'RegisterController@create')->name('inscription');
 
