@@ -17,7 +17,7 @@
   <div class="container">
     @yield('content')
     </div>
-    
+    @include('inc.footer')
  
 
     <!-- Optional JavaScript -->
