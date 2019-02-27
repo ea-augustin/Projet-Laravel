@@ -18,15 +18,15 @@ Route::get('/', function(){
 });
 
 Route::get('/dlc', function(){
-    return view('dlc');
+    return view('pages.dlc');
 });
 
 Route::get('/co', function(){
-    return view('connexion');
+    return view('pages.connexion');
 });
 
 Route::get('/reg', function(){
-    return view('inscription');
+    return view('pages.inscription');
 });
 
 // HEAD

@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('title')
-     About
+     Accueil
 @endsection
 
 
